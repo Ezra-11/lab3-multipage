@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page Title</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <!-- Shared Header -->
@@ -14,11 +15,13 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <button id="themeToggle">Switch Theme</button>
         </ul>
       </nav>
     </header>
 
     <!-- Page-Specific Content -->
+
     <main>
       <section class="hero">
         <div class="hero-text">
@@ -31,6 +34,17 @@
         <div class="intro">Our Services</div>
         <div class="sidebar">Our Products</div>
       </section>
+
+      <div class="faq-item" style="margin: 20px; cursor: pointer">
+        <h3 class="question">What is this website about?</h3>
+        <p class="answer">
+          This is a demo project for learning web development.
+        </p>
+      </div>
+
+      <h2 style="padding-left: 20px">Team Members</h2>
+      <ul id="userList" style="padding-left: 20px"></ul>
+      <button id="loadUsersBtn" style="margin-left: 20px">Load Users</button>
     </main>
 
     <!-- Shared Footer -->
