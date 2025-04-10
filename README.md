@@ -8,3 +8,9 @@ The service page contain four carts each displaying an image and some informatio
 
 Contact Page
 The contact page has the form where a user can fill in the conatct details
+
+COMPLETED FEATURES
+dark theme taggle buttom
+fetching users
+validation with javascrpit
+thank you message displayed
